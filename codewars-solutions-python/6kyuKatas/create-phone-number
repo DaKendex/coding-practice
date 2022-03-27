@@ -1,0 +1,15 @@
+# Solution 1
+def create_phone_number(n):
+    #your code here
+    cc = ""
+    mid = ""
+    end =""
+    pn = ""
+    for x in range(3):
+        cc = cc + str(n[x])
+    for x in range(3,6):
+        mid = mid + str(n[x])
+    for x in range(6,10):
+        end = end + str(n[x])
+    pn = "(" + cc + ")" + " " + mid + "-" + end
+    return pn
