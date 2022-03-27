@@ -1,0 +1,8 @@
+# Solution 1
+def delete_nth(order,max_e):
+    # code here
+    list = []
+    for x in order:
+        if list.count(x) < max_e:
+            list.append(x)
+    return listt
